@@ -10,6 +10,13 @@ A full-stack task management application. The backend is a REST API built with *
 - Parameterised SQL queries (protects against SQL injection)
 - Responsive UI styled with Tailwind CSS
 
+## Live Demo
+A hosted **frontend demo** is available (link below). On the hosted demo, tasks are saved in your browser's local storage, because the demo is a static site without the Express and MySQL backend. The full version, with the REST API and MySQL database, runs locally (see How to Run Locally).
+
+**Demo link:** _add your Netlify link here_
+
+To build the demo yourself: `cd frontend`, then `npm install`, then `npm run build:demo`. The `dist` folder is the static site.
+
 ## Tech Stack
 | Layer | Technology |
 |-------|------------|
